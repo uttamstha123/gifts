@@ -1,0 +1,78 @@
+.home4__productSlider {
+  height: 100vh;
+}
+.home4__giftbaskets .giftbaskets__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home4__giftbaskets .cursiveTitle {
+  display: none;
+}
+.home4__giftbaskets .giftbaskets__box {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+.home4__giftbaskets .giftbaskets__box img {
+  width: 100%;
+  object-fit: cover;
+}
+.home4__giftbaskets .giftbaskets__boxContext {
+  position: absolute;
+  color: var(--white-900);
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+}
+.home4__giftbaskets .giftbaskets__boxContext h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.home4__giftbaskets .giftbaskets__boxContext p {
+  color: var(--white-900);
+}
+.home4__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.home4__containerLeft {
+  width: 100%;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.home4__containerLeft {
+  background: var(--white-900);
+}
+.home4__containerRightOurService > div {
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+@media (min-width: 780px) {
+  .home4__giftbaskets .giftbaskets__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .home4__giftbaskets .giftbaskets__box {
+    flex: 40%;
+  }
+  .home4__container {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .home4__containerLeft {
+    width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  .home4__giftbaskets .giftbaskets__box {
+    flex: 1;
+  }
+}

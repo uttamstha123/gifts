@@ -1,0 +1,22 @@
+.articles {
+  width: 100%;
+  text-align: center;
+  background-color: var(--white-900);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  font-family: var(--ff-home);
+}
+.articles__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem 0;
+}
+@media (min-width: 780px) {
+  .articles__wrapper > div {
+    flex: 25%;
+  }
+}

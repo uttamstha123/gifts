@@ -1,0 +1,128 @@
+.productItemCard {
+  width: 100%;
+  text-align: center;
+  font-family: var(--ff-home);
+  padding: 0 1.8rem;
+}
+
+.productItemCard__image {
+  width: 100%;
+  position: relative;
+}
+.productItemCard__image img {
+  width: 100%;
+  transition: all 0.2s;
+}
+.productItemCard__action {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.25rem;
+  z-index: 10;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.productItemCard__actionWrap {
+  background: var(--white-900);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.productItemCard__actionWrap > * {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  cursor: pointer;
+  padding: 0.1rem 0.6rem;
+}
+.productItemCard__actionIcon > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.productItemCard__actionIcon > * {
+  font-size: 1.6rem;
+  color: var(--grey-200);
+}
+.productItemCard__actionIcon > *:hover {
+  color: var(--pink-900);
+}
+.productItemCard__detail {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-wrap: break-word;
+  padding: 1.8rem;
+  text-align: center;
+}
+.productItemCard__detail > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.productItemCard__detail:hover .productItemCard__productName{
+  text-decoration: underline;
+}
+.productItemCard__priceTag {
+  font-size: var(--fs-tertiary);
+}
+.productItemCard__previousPrice {
+  text-decoration: line-through;
+  color: var(--grey-200);
+}
+.productItemCard__productName {
+  cursor: pointer;
+  max-width: 100%;
+  font-weight: 500;
+  font-size: var(--fs-tertiary);
+}
+.productItemCard__ratings {
+  margin-top: auto;
+}
+
+.productItemCard:hover img {
+  transform: scale(1.05);
+}
+/* .productItemCard:hover::before{
+
+} */
+@media (min-width: 540px) {
+  .productItemCard {
+    max-width: 50%;
+  }
+  .productItemCard__action {
+    opacity: 0;
+    bottom: 2rem;
+  }
+  .productItemCard:hover .productItemCard__action {
+    opacity: 1;
+    bottom: -0.25rem;
+  }
+}
+@media (min-width: 780px) {
+  .productItemCard {
+    width: 33.33%;
+  }
+  .productItemCard__action {
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .productItemCard {
+    width: 25%;
+  }
+  .productItemCard__action {
+    width: max-content;
+  }
+  .productItemCard__actionWrap {
+    width: 100%;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+  }
+}

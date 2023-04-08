@@ -1,0 +1,82 @@
+.home__mainSection {
+  width: 100%;
+  background: var(--white-800);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+
+.home__mainSection .heroSection {
+  font-family: var(--ff-home);
+}
+/***** Left section ******/
+.home__leftSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/******** Right Section *****/
+.home__rightSection {
+  width: 100%;
+}
+.home__rightSection > div {
+  margin-bottom: 2rem;
+}
+
+.home__heroSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.home__heroSectionFlexItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.home__heroSectionFlexItem .home__heroSectionItem {
+  height: 35rem;
+}
+
+.home__heroSectionItem1{
+  height: 35rem;
+}
+.home__mainSection .home__featureSection {
+  margin-bottom: 2rem;
+}
+.home__heroSectionItem5 {
+  flex-shrink: 1;
+}
+.home__giftsSection {
+  background-color: var(--white-900);
+  padding: 4rem 2rem;
+}
+@media (min-width: 780px) {
+  .home__heroSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .home__heroSectionFlexItem {
+    flex-direction: row;
+  }
+  .home__heroSectionItem1{
+    height: 50rem;
+    max-height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .home__mainSection {
+    gap: 2rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .home__leftSection {
+    width: 30rem;
+  }
+}

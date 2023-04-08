@@ -1,0 +1,29 @@
+.filterColors ul {
+  padding: 1rem;
+}
+.filterColors li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.filterColors__color {
+  height: 2rem;
+  width: 2rem;
+  background: pink;
+  border: 0.2rem solid var(--grey-100);
+  border-radius: 50%;
+}
+.filterColors__name {
+  flex: 2;
+  transition: all .15s;
+}
+.filterColors__name,
+.filterColors__qty {
+  font-size: var(--fs-tertiary);
+  color: var(--grey-200);
+}
+.filterColors__name:hover {
+  color: var(--black-800);
+}

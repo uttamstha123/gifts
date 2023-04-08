@@ -1,0 +1,29 @@
+.abouts__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.abouts__mainBody {
+  margin-top: 1rem;
+  font-family: var(--ff-home);
+  font-size: var(--fs-secondary);
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .abouts__main {
+    flex-direction: row;
+  }
+  .abouts__mainBody {
+    padding: 2rem;
+    width: 50%;
+  }
+}
+.abouts__mainBody > *:not(:last-child) {
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+.abouts__mainBody h2 {
+  color: var(--grey-200);
+}

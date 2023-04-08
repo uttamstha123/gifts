@@ -1,0 +1,59 @@
+:root {
+  --primary-clr: #fed2cc;
+  --pink-900: #be7374;
+  --pink-200: #fbe6ce;
+  --pink-100: #f6eee0;
+  --white-900: #fff;
+  --white-800: #f8f8f8;
+  --black-900: #000;
+  --black-800: #272727;
+  --sideMenuLink-clr: #3f4448;
+  --grey-100: #e8e8e9;
+  --grey-200: #788090;
+  --grey-300: #d8b2ad;
+  --fs-primary: 1.4rem;
+  --fs-secondary: 1.8rem;
+  --fs-tertiary: 1.6rem;
+
+  --fs-display1: 5.25rem;
+  --fs-heading-0: 5rem;
+  --fs-heading-1: 4rem;
+  --fs-heading-2: 3rem;
+  --fs-heading-3: 2.5rem;
+
+  --ff-home: "Jost", sans-serif;
+  --ff-header: "Roboto", sans-serif;
+  --ff-cursive: "Sacramento", cursive;
+}
+/* global css */
+.globalPrimaryText {
+  font-size: var(--fs-secondary);
+  font-weight: 400;
+}
+.globalSecondaryText {
+  font-size: var(--fs-secondary);
+  color: var(--black-800);
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+} 
+.globalPaddingContainer {
+  background: var(--white-800);
+  padding: 2rem;
+}
+.globalPaddingContainerWhite {
+  background: var(--white-900);
+  padding: 2rem;
+}
+/* Banner Heading style */
+.globalPrimaryHeading {
+  font-size: var(--fs-heading-1);
+}
+.globalSecondaryHeading {
+  font-size: var(--fs-heading-2);
+}
+
+@media (min-width: 780px) {
+  .globalPaddingContainer {
+    padding: 2rem 3rem;
+  }
+}

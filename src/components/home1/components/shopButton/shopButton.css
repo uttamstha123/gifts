@@ -1,0 +1,15 @@
+.shopButton a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: var(--fs-primary);
+  background: var(--white-900);
+  padding: 1.5rem 5.5rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: all 0.2s;
+}
+.shopButton a:hover {
+  background-color: var(--pink-900);
+  color: var(--white-900);
+}

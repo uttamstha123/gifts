@@ -1,0 +1,26 @@
+.dropDownMenu {
+  display: none;
+  width: max-content;
+  position: absolute;
+  top: 100%;
+  left: 15%;
+}
+.dropDownMenu::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  width: 20rem;
+  height: 110%;
+  background-color: var(--white-900);
+  z-index: -1;
+}
+.dropDownMenu li {
+  font-size: var(--fs-primary);
+  color: var(--grey-200);
+  margin-top: 1.5rem;
+}
+.dropDownMenu a:hover li{
+  color: var(--pink-900);
+  transition: all 120ms;
+}

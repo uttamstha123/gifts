@@ -1,0 +1,12 @@
+.quantity {
+  font-size: var(--fs-secondary);
+  border: 3px solid var(--grey-100);
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.quantity >*:nth-child(odd) {
+  font-size: var(--fs-primary);
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.dottedBorder {
+  height: 100%;
+}
+.dottedBorder__bottom {
+  border-bottom: 4px dotted var(--grey-100);
+}
+.dottedBorder__right {
+  border-right: 4px dotted var(--grey-100);
+}
+.dottedBorder__left {
+  border-left: 4px dotted var(--grey-100);
+}
+.dottedBorder__top {
+  border-top: 4px dotted var(--grey-100);
+}

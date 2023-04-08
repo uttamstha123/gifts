@@ -1,0 +1,28 @@
+.holidayIdea {
+  padding: 4rem 0;
+  background-color: var(--white-900);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  font-family: var(--ff-home);
+  overflow: hidden;
+}
+/* .holidayIdea__header {
+} */
+.holidayIdea__header h1 {
+  font-size: var(--fs-heading-2);
+}
+.holidayIdea__header span {
+  font-size: var(--fs-primary);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.holidayIdea__bannerImage img {
+  transition: all 0.3s;
+  vertical-align: middle;
+}
+.holidayIdea__bannerImage:hover img {
+  transform: scale(1.1);
+}

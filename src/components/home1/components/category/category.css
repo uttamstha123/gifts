@@ -1,0 +1,36 @@
+.category {
+  font-size: var(--fs-secondary);
+  width: 100%;
+  padding: 4rem;
+  background: var(--primary-clr);
+  border-radius: 1rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+.category li {
+  color: var(--pink-900);
+  padding: 1.6rem 0;
+}
+.category li a {
+  transition: all 0.15s;
+}
+.category li a:hover {
+  color: var(--pink-900);
+}
+
+.category li:first-child {
+  padding-top: 0;
+}
+.category li:last-child {
+  padding-bottom: 0;
+}
+
+.category li:not(:last-child) {
+  border-bottom: 4px dotted var(--grey-300);
+}
+
+@media (min-width: 1024px) {
+  .category {
+    min-width: 30rem;
+  }
+}

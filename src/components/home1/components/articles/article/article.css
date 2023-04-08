@@ -1,0 +1,32 @@
+.article {
+  border-bottom: 3px dotted var(--grey-100);
+  padding-bottom: 2rem;
+}
+
+.article a {
+  transition: all 0.2s;
+}
+
+.article__image{
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.article__header {
+  font-size: var(--fs-secondary);
+}
+.article__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: var(--fs-primary);
+}
+.article__detailsLeft > span:first-child,
+.article__detailsRight > span:first-child {
+  color: var(--grey-200);
+}
+
+.article a:hover {
+  color: var(--pink-900);
+}

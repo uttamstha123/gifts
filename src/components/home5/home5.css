@@ -1,0 +1,54 @@
+.home5 {
+  background-color: var(--white-900);
+}
+.home5__topSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home5__topSectionShopBanner:nth-child(2) {
+  height: 32rem;
+}
+.home5__topSectionShopBanner:not(:nth-child(2)) {
+  height: 28rem;
+}
+.home5__bottomSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.home5__bottomSectionShopBanner {
+  height: 50vh;
+}
+.home5__ourService > div {
+  flex-direction: column;
+}
+@media (min-width: 780px) {
+  .home5__topSection {
+    flex-direction: row;
+    height: 96.5vh;
+    gap: 0;
+  }
+  .home5__topSectionShopBanner .shopBanner__image {
+    border-radius: 0;
+  }
+  .home5__topSectionShopBanner {
+    height: auto !important;
+  }
+  .home5__bottomSection {
+    flex-direction: row;
+    height: 25vmax;
+  }
+  .home5__bottomSectionShopBanner {
+    height: 50vh;
+    flex: 1;
+  }
+  .home5__ourService > div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .home5__ourService .dottedBorder {
+    height: 10rem;
+  }
+}

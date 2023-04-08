@@ -1,0 +1,12 @@
+/* component style */
+.shopLink {
+  font-size: var(--fs-primary);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px dashed var(--pink-900);
+  transition: all 230ms;
+}
+.shopLink:hover {
+  color: var(--pink-900);
+}

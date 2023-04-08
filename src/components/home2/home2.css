@@ -1,0 +1,64 @@
+.home2 {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.home2__productSlider {
+  height: 80vh;
+}
+.home2__ourService {
+  display: flex;
+}
+.home2__ourService > div {
+  flex-direction: column;
+}
+.home2__banner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* height: 45rem; */
+  padding: 2rem;
+  background-color: var(--white-800);
+}
+.home2__banner > div {
+  width: 100%;
+  height: 35rem;
+}
+
+.home2__giftsbaskets {
+  padding: 4rem 2rem;
+}
+
+.home2__bottomSection {
+  padding: 2rem;
+  background-color: var(--white-800);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 780px) {
+}
+@media (min-width: 1024px) {
+  .home2__ourService > div {
+    flex-direction: row;
+  }
+  .home2__banner {
+    flex-direction: row;
+    height: 45rem;
+  }
+  .home2__bottomSection {
+    flex-direction: row;
+  }
+  .home2__bottomSection > div {
+    width: 33.33%;
+  }
+  .home2__banner,
+  .home2__bottomSection {
+    padding: 4rem;
+  }
+  .home2__banner > div:not(:last-child) {
+    width: 40%;
+  }
+}

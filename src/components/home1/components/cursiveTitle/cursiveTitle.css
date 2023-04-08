@@ -1,0 +1,10 @@
+/* Cursive Heading style */
+.cursiveTitle__heading {
+  font-family: var(--ff-cursive);
+  font-size: var(--fs-display1);
+  height: 100%;
+}
+.cursiveTitle {
+  display: inline-block;
+  padding-bottom: 1rem;
+}

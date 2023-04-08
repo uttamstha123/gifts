@@ -1,0 +1,111 @@
+.productDetail__main {
+  display: flex;
+  margin: 2rem 0;
+  font-family: var(--ff-home);
+  padding: 2rem;
+}
+.productDetail__main > div {
+  width: 100%;
+}
+.productDetail__mainImageContainer > img {
+  width: 80%;
+}
+.productDetail__mainImageThumbnail {
+  width: 80%;
+  display: flex;
+  gap: 2rem;
+  padding: 0rem 2rem;
+  cursor: pointer;
+}
+.productDetail__mainImageThumbnail img {
+  width: 100%;
+}
+.productDetail__mainImageThumbnail > div.active {
+  border: 1px solid var(--pink-900);
+}
+.productDetail__mainDescriptionHeading h1 {
+  font-size: var(--fs-heading-1);
+}
+.productDetail__mainDescriptionHeading h2 {
+  font-size: var(--fs-heading-2);
+  color: var(--pink-900);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.productDetail__mainDescriptionHeading span {
+  font-size: var(--fs-secondary);
+  margin-left: 1rem;
+  color: var(--grey-200);
+  text-decoration: line-through;
+}
+.productDetail__mainDescriptionRating {
+  padding: 1.5em 0;
+  border-top: 1px solid var(--grey-100);
+  border-bottom: 1px solid var(--grey-100);
+}
+.productDetail__mainDescriptionInfo {
+  color: var(--grey-200);
+  font-weight: 400;
+  font-size: var(--fs-secondary);
+  padding: 1.5rem 0;
+  border-bottom: 4px dotted var(--grey-100);
+}
+.productDetail__mainDescriptionColors {
+  padding: 1.5rem 0;
+}
+.productDetail__mainDescriptionColors > div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.productDetail__mainDescriptionColors .color {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+}
+.productDetail__mainDescriptionColors .color:hover::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid var(--grey-100);
+  border-radius: 5px;
+}
+.productDetail__mainDescription h3 {
+  font-size: var(--fs-secondary);
+}
+.productDetail__mainDescriptionCart {
+  font-size: var(--fs-secondary);
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 4px dotted var(--grey-100);
+}
+.productDetail__mainDescriptionShare {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 4px dotted var(--grey-100);
+}
+.productDetail__mainDescriptionIcons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: var(--fs-secondary);
+  color: var(--grey-200);
+  margin-left: 1rem;
+}
+.productDetail__mainDescriptionMore {
+  display: flex;
+  padding: 2rem 0;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.productDetail__mainDescriptionMore span {
+  color: var(--grey-200);
+}
