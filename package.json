@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://uttamstha123.github.io/Gifts",
+  "homepage": "http://uttamstha123.github.io/gift",
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
