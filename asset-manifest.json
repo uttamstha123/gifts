@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gifts/static/css/main.2bc47db3.css",
-    "main.js": "/gifts/static/js/main.d425d7d8.js",
+    "main.css": "/gifts/static/css/main.d3ed15ca.css",
+    "main.js": "/gifts/static/js/main.3c53c8cc.js",
     "static/media/h1-slider3.png": "/gifts/static/media/h1-slider3.aa6c26b2ed07d2b6fd60.png",
     "static/media/h4-banner5.png": "/gifts/static/media/h4-banner5.0e94b4a5a7e1ce5690a4.png",
     "static/media/h4-banner6.png": "/gifts/static/media/h4-banner6.a60308442cb8c032bd44.png",
@@ -33,11 +33,11 @@
     "static/media/cat01.jpg": "/gifts/static/media/cat01.a64b0513ef91c1b5e308.jpg",
     "static/media/h3-banner10.jpg": "/gifts/static/media/h3-banner10.35f825c15649fafd03bc.jpg",
     "index.html": "/gifts/index.html",
-    "main.2bc47db3.css.map": "/gifts/static/css/main.2bc47db3.css.map",
-    "main.d425d7d8.js.map": "/gifts/static/js/main.d425d7d8.js.map"
+    "main.d3ed15ca.css.map": "/gifts/static/css/main.d3ed15ca.css.map",
+    "main.3c53c8cc.js.map": "/gifts/static/js/main.3c53c8cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bc47db3.css",
-    "static/js/main.d425d7d8.js"
+    "static/css/main.d3ed15ca.css",
+    "static/js/main.3c53c8cc.js"
   ]
 }
