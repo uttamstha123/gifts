@@ -12,7 +12,7 @@ import { ProductProvider } from "./ProductContext";
 function App() {
   return (
     <>
-      <ProductProvider basename="/gifts">
+      <ProductProvider basename="/">
         <Router>
           <Routes>
             <Route path="/" exact element={<Home1 />} />

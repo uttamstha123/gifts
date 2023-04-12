@@ -109,3 +109,7 @@
 .productDetail__mainDescriptionMore span {
   color: var(--grey-200);
 }
+.productDetail__bottom{
+  font-size: var(--fs-secondary);
+  
+}

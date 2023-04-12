@@ -10,7 +10,6 @@ import image1 from "../../../../assests/shop/images/7-1-600x650.jpg";
 import image2 from "../../../../assests/shop/images/7-2-600x650.jpg";
 import image3 from "../../../../assests/shop/images/7-3-600x650.jpg";
 import image4 from "../../../../assests/shop/images/7-600x650.jpg";
-import "./productDetail.css";
 import Rating from "../../../home1/components/ratings/Rating";
 import Header from "../../../home1/components/headers/Header1";
 import "./productDetail.css";
@@ -25,6 +24,7 @@ import {
 } from "react-icons/bs";
 import ShopLink from "../../../home1/components/shopLink/ShopLink";
 import Quantity from "../../components/quantity/Quantity";
+import { Outlet } from "react-router-dom";
 const ProductDetail = () => {
   const products = useContext(ProductContext);
   const [currentImage, setCurrentImage] = useState(image1);
@@ -167,6 +167,16 @@ const ProductDetail = () => {
               Tags:<span>Classic,Healthy</span>
             </h3>
           </div>
+        </div>
+      </div>
+      <div className="productDetail__bottom">
+        <div class="productDetail__bottomHeading">
+          <p>Description</p>
+          <p>Additional Information</p>
+          <p>Reviews(3)</p>
+        </div>
+        <div className="productDetail__bottomContent">
+          <Outlet/>
         </div>
       </div>
     </div>
