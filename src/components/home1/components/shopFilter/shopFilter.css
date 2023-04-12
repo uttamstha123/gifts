@@ -1,0 +1,28 @@
+.shopFilter {
+  display: flex;
+  padding: 2rem 1rem;
+}
+.shopFilterResults {
+  font-size: var(--fs-tertiary);
+  color: var(--grey-200);
+  margin-right: auto;
+}
+.shopFilterAction {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.shopFilterActionGridView {
+  display: grid;
+  place-items: center;
+  font-size: var(--fs-tertiary);
+}
+.shopFilterActionListView {
+  display: grid;
+  place-items: center;
+  font-size: var(--fs-secondary);
+}
+.shopFilterActionSorting select,
+.shopFilterActionSorting option {
+  font-size: var(--fs-tertiary);
+}

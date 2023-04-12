@@ -9,6 +9,7 @@ import { useContext } from "react";
 import { ProductContext } from "../../../../ProductContext";
 import "./shop.css";
 import FilterColors from "../../components/filterColors/FilterColors";
+import ShopFilter from "../../components/shopFilter/ShopFilter";
 const Shop = () => {
   const productList = useContext(ProductContext);
   console.log(productList);
@@ -33,6 +34,9 @@ const Shop = () => {
           </div>
         </div>
         <div className="shop__mainRight">
+          <div className="shop_mainRightFilters">
+            <ShopFilter/>
+          </div>
           <div className="shop__mainRightProductItem">
             <ProductItemCard products={productList["feature"]} />;
           </div>
